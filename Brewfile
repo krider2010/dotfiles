@@ -95,6 +95,9 @@ brew "temurin"
 # Powerful IDE - IDEA Ultimate
 brew "intellij-idea"
 
+# Terminal multiplexer
+brew "tmux"
+
 # Process manager for Procfile-based applications and tmux
 brew "overmind"
 
@@ -158,10 +161,10 @@ cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
 
-# GIT client
+# git client
 cask "tower"
 
-# GIT client (GitHub Desktop)
+# git client (GitHub Desktop)
 cask "github"
 
 # Awesome terminal emulator
@@ -229,6 +232,10 @@ cask "authy"
 # Communication and collaboration. And memes. And emoji!
 cask "slack"
 
+# Communication
+cask "signal"
+cask "whatsapp"
+
 mas "Amphetamine", id: 937984704
 mas "Bear" id: 1091189122
 mas "Buffer", id: 1474298973
@@ -257,7 +264,6 @@ mas "Todoist", id: 585829637
 mas "ToothFairy", id: 1191449274
 mas "Tweetbot", id: 1384080005
 mas "Whalebird", id: 1378283354
-mas "WhatsApp", id: 1147396723
 mas "Xcode", id: 497799835
 
 # Install manually...

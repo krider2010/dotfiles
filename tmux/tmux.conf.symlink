@@ -2,6 +2,9 @@
 # set -g prefix C-a
 # unbind C-b
 
+# set shell
+set -g default-shell /bin/zsh
+
 # Change the default window number from 0 to 1
 set -g base-index 1
 

@@ -59,3 +59,23 @@ which sets up a few paths that'll be different on your particular machine.
 defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
+
+## notes
+
+This does not include ssh config files, or pulling keys from 1Password, or vscode things, or ... These are for my own reference...
+
+Useful things for ssh
+
+```sh
+Host *
+  StrictHostKeyChecking ask
+  VerifyHostKeyDNS ask
+  NoHostAuthenticationForLocalhost yes
+  IdentityFile ~/.ssh/id_rsa
+  UseKeychain yes
+  AddKeysToAgent yes
+  ControlMaster auto
+  ControlPath /tmp/ssh-%r@%h:%p.socket
+```
+
+Enable `Settings Sync` via GitHub for [vscode](https://code.visualstudio.com/docs/editor/settings-sync)
