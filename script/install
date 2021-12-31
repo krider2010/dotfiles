@@ -8,3 +8,7 @@ cd "$(dirname $0)"/..
 
 # find the installers and run them iteratively
 find . -name install.sh -execdir sh {} \;
+
+# Run Homebrew through the Brewfile
+echo "› brew bundle"
+brew bundle
