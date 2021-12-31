@@ -52,6 +52,9 @@ brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 
+# Safe, concurrent, practical language (run this command afterwards to configure the things)
+brew "rustup-init"
+
 # Colorize logfiles and command output
 brew "grc"
 

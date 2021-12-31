@@ -141,7 +141,7 @@ setup_gitconfig
 install_dotfiles
 
 # Run install scripts
-source script/install.sh
+source script/install
 
 # If we're on a Mac, let's install and setup homebrew.
 if [ "$(uname -s)" == "Darwin" ]

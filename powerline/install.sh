@@ -10,4 +10,4 @@ cd fonts
 cd ..
 rm -rf fonts
 
-cp "Fira Coda Medium Nerd Font Complete.ttf" "$HOME/Library/Fonts/"
+cp "Fira Code Medium Nerd Font Complete.ttf" "$HOME/Library/Fonts/"
