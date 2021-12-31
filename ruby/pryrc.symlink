@@ -1,0 +1,24 @@
+Pry::Commands.command /^$/, "repeat last command" do
+  _pry_.run_command Pry.history.to_a.last
+end
+
+# Shorten the most often used commands
+if defined?(PryByebug)
+  Pry.commands.alias_command 'c', 'continue'
+  Pry.commands.alias_command 's', 'step'
+  Pry.commands.alias_command 'n', 'next'
+  Pry.commands.alias_command 'f', 'finish'
+end
+
+# Step-by-step debugging
+# break: Manage breakpoints.
+# step: Step execution into the next line or method. Takes an optional numeric argument to step multiple times.
+# next: Step over to the next line within the same frame. Also takes an optional numeric argument to step multiple lines.
+# finish: Execute until current stack frame returns.
+# continue: Continue program execution and end the Pry session.
+
+# Callstack navigation
+# backtrace: Shows the current stack. You can use the numbers on the left side with the frame command to navigate the stack.
+# up: Moves the stack frame up. Takes an optional numeric argument to move multiple frames.
+# down: Moves the stack frame down. Takes an optional numeric argument to move multiple frames.
+# frame: Moves to a specific frame. Called without arguments will show the current frame.

@@ -34,7 +34,7 @@ brew "diffoscope"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 
-# Modern replacement for 'ls'
+# Modern replacement for 'ls' (colours etc!)
 brew "exa"
 
 # Simple, fast and user-friendly alternative to find

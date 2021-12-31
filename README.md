@@ -48,7 +48,7 @@ Everything is configured and tweaked within `~/.dotfiles`.
 
 On Macs, then you'll also likely want to run:
 
-```
+```sh
 xcode-select --install
 ```
 
