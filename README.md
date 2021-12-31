@@ -46,7 +46,7 @@ script/bootstrap
 This will symlink the appropriate files in `.dotfiles` to your home directory.
 Everything is configured and tweaked within `~/.dotfiles`.
 
-On Macs, then you'll also likely want to run:
+On Mac, then you'll also likely want to run:
 
 ```sh
 xcode-select --install
@@ -64,7 +64,7 @@ this script in `bin/`.
 
 This does not include ssh config files, or pulling keys from 1Password, or vscode things, or ... These are for my own reference...
 
-Useful things for ssh
+Useful things for ssh:
 
 ```sh
 Host *
