@@ -12,7 +12,6 @@ tap "homebrew/command-not-found"
 tap "homebrew/core"
 tap "homebrew/formula-analytics"
 tap "homebrew/services"
-tap "planetscale/tap/pscale"
 
 # Search tool like grep, but optimized for programmers
 brew "ack"
@@ -84,6 +83,9 @@ brew "fx"
 
 # Mac App Store command-line interface
 brew "mas"
+
+# PlanetScale CLI
+brew "planetscale/tap/pscale"
 
 # AWS SAM CLI
 brew "aws-sam-cli"
