@@ -234,7 +234,7 @@ cask "signal"
 cask "whatsapp"
 
 mas "Amphetamine", id: 937984704
-mas "Bear" id: 1091189122
+mas "Bear", id: 1091189122
 mas "Buffer", id: 1474298973
 mas "Cardhop", id: 1290358394
 mas "Cyberduck", id: 409222199
