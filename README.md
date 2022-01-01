@@ -42,7 +42,6 @@ Run this:
 ```sh
 git clone https://github.com/krider2010/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
-export STRAP_GITHUB_TOKEN=<your-github-token>
 ./strap.sh
 ```
 
