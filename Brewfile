@@ -50,8 +50,10 @@ brew "font-hack-nerd-font"
 # GitHub command-line tool
 brew "gh"
 
-# GNU Pretty Good Privacy (PGP) package
-brew "gnupg"
+# GNU Pretty Good Privacy (PGP)
+brew 'gpg2'
+brew 'gnupg'
+brew 'pinentry-mac'
 
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
@@ -114,23 +116,11 @@ brew "pidof"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
 
-# Ruby version manager
-brew "rbenv"
-
-# Auto-installs gems for Ruby installs
-brew "rbenv-default-gems"
-
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 
-# Powerful, clean, object-oriented scripting language
-brew "ruby"
-
-# Powerful, clean, object-oriented scripting language
-brew "ruby@2.7"
-
-# Powerful, clean, object-oriented scripting language
-brew "ruby@3"
+# Ruby version manager written in rust that is fast and handles installing ruby itself
+brew "frum"
 
 # Easy configuration of the system wide default browser (CLI)
 brew "defaultbrowser"
