@@ -38,12 +38,25 @@ setup_gitconfig () {
       git_credential='osxkeychain'
     fi
 
-    user ' - What is your github author name?'
-    read -e git_authorname
-    user ' - What is your github author email?'
-    read -e git_authoremail
+    if [ -z "$STRAP_GIT_NAME"]
+    then
+      user ' - What is your GitHub author name?'
+      read -e STRAP_GIT_NAME
+    fi
 
-    sed -e "s/AUTHORNAME/$git_authorname/g" -e "s/AUTHOREMAIL/$git_authoremail/g" -e "s/GIT_CREDENTIAL_HELPER/$git_credential/g" git/gitconfig.local.symlink.example > git/gitconfig.local.symlink
+    if [ -z "$STRAP_GIT_EMAIL"]
+    then
+      user ' - What is your GitHub author email?'
+      read -e STRAP_GIT_EMAIL
+    fi
+
+    if [ -z "$STRAP_GITHUB_USER"]
+    then
+      user ' - What is your GitHub user?'
+      read -e STRAP_GITHUB_USER
+    fi
+
+    sed -e "s/AUTHORNAME/$STRAP_GIT_NAME/g" -e "s/AUTHOREMAIL/$STRAP_GIT_EMAIL/g" -e "s/GIT_CREDENTIAL_HELPER/$git_credential/g" -e "s/AUTHORGITHUB/$STRAP_GITHUB_USER/g" git/gitconfig.local.symlink.example > git/gitconfig.local.symlink
 
     success 'gitconfig'
   fi
@@ -142,18 +155,6 @@ install_dotfiles
 
 # Run install scripts
 source script/install
-
-# If we're on a Mac, let's install and setup homebrew.
-if [ "$(uname -s)" == "Darwin" ]
-then
-  info "installing dependencies"
-  if source bin/dot | while read -r data; do info "$data"; done
-  then
-    success "dependencies installed"
-  else
-    fail "error installing dependencies"
-  fi
-fi
 
 echo ''
 echo '  All installed!'

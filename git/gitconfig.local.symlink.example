@@ -5,4 +5,4 @@
         helper = GIT_CREDENTIAL_HELPER
 [github]
         # GitHub username for command-line tools
-        user = krider2010
+        user = AUTHORGITHUB

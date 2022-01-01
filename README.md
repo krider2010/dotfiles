@@ -5,7 +5,7 @@ awesome, you might want to [read Zach Holman's post on the
 subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
 Indeed, this repo was forked from Holman's dotfile repo, but has been tweaked
-for my needs, including support for [Oh My Zsh](https://ohmyz.sh/) and [Homebrew](https://brew.sh/).
+for my needs, including support for [Oh My Zsh](https://ohmyz.sh/) and [Homebrew](https://brew.sh/). It also makes use of an adapted [strap](https://github.com/MikeMcQuaid/strap) [script](https://macos-strap.herokuapp.com/).
 
 ## topical
 
@@ -40,22 +40,25 @@ Run this:
 ```sh
 git clone https://github.com/krider2010/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
-script/bootstrap
+export STRAP_GITHUB_TOKEN=<your-github-token>
+./strap.sh
 ```
 
-This will symlink the appropriate files in `.dotfiles` to your home directory.
-Everything is configured and tweaked within `~/.dotfiles`.
+This will install various security things, homebrew, and then symlink the appropriate files
+in `.dotfiles` to your home directory. Everything is configured and tweaked within `~/.dotfiles`.
 
-On Mac, then you'll also likely want to run:
+On !Mac (also !Windows - but none of this likely works on Windows), then you don't need strap so run...
 
 ```sh
-xcode-select --install
+git clone https://github.com/krider2010/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
+script/install
 ```
 
 The main file you'll want to change right off the bat is `zsh/zshrc.symlink`,
 which sets up a few paths that'll be different on your particular machine.
 
-`dot` is a simple script that installs some dependencies, sets sane macOS
+`dot` is a simple script that installs some dependencies, sets various macOS
 defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.

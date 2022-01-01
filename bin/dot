@@ -43,12 +43,10 @@ export ZSHDOT=$HOME/.dotfiles
 # Set macOS defaults
 $ZSHDOT/macos/set-defaults.sh
 
-# Install homebrew
-$ZSHDOT/homebrew/setup.sh 2>&1
-
 # Upgrade homebrew
-echo "› brew update"
+echo "› brew update and upgrade"
 brew update
+brew upgrade
 
 # Install software
 echo "› $ZSHDOT/script/install"
