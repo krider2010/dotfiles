@@ -7,6 +7,8 @@ subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 Indeed, this repo was forked from Holman's dotfile repo, but has been tweaked
 for my needs, including support for [Oh My Zsh](https://ohmyz.sh/) and [Homebrew](https://brew.sh/). It also makes use of an adapted [strap](https://github.com/MikeMcQuaid/strap) [script](https://macos-strap.herokuapp.com/).
 
+**Note:** If you do use strap, don't check in any script with tokens - they have been removed from this script and the user prompted to provide them!
+
 ## topical
 
 Everything's built around topic areas. If you're adding a new area to your
