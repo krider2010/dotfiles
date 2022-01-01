@@ -43,9 +43,6 @@ brew "fd"
 # Cleans up old and inactive forks on your GitHub account
 brew "fork-cleaner"
 
-# Nerd fonts with glyphs (in addition to Powerline)
-brew "font-hack-nerd-font"
-
 # GitHub command-line tool
 brew "gh"
 
@@ -194,6 +191,9 @@ cask "firefox"
 
 # Open-source software for live streaming and screen recording
 cask "obs"
+
+# Nerd fonts with glyphs (in addition to Powerline)
+cask "font-hack-nerd-font"
 
 # Silence embarrassing notifications while screensharing
 cask "muzzle"
