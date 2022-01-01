@@ -6,6 +6,7 @@ tap "homebrew/aliases"
 tap "homebrew/autoupdate"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/command-not-found"
 tap "homebrew/core"
@@ -42,6 +43,9 @@ brew "fd"
 
 # Cleans up old and inactive forks on your GitHub account
 brew "fork-cleaner"
+
+# Nerd fonts with glyphs (in addition to Powerline)
+brew "font-hack-nerd-font"
 
 # GitHub command-line tool
 brew "gh"
