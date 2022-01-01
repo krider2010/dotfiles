@@ -97,12 +97,6 @@ brew "mysql-client"
 # Node version management
 brew "n"
 
-# Development kit for the Java programming language - see http://whichjdk.com/
-brew "temurin"
-
-# Powerful IDE - IDEA Ultimate
-brew "intellij-idea"
-
 # Terminal multiplexer
 brew "tmux"
 
@@ -127,14 +121,8 @@ brew "defaultbrowser"
 # Internet file retriever
 brew "wget"
 
-# Screen recording utility
-brew "kap"
-
 # Download YouTube videos from the command-line
 brew "youtube-dlc"
-
-# Fish-like fast/unobtrusive autosuggestions for zsh
-brew "zsh-autosuggestions"
 
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
@@ -166,6 +154,9 @@ cask "github"
 # Awesome terminal emulator
 cask "iterm2"
 
+# Development kit for the Java programming language - see http://whichjdk.com/
+cask "temurin"
+
 # HTTP client that helps testing and describing APIs
 cask "paw"
 
@@ -181,6 +172,9 @@ cask "little-snitch"
 
 # Tool to remove unnecessary files and folders, and cleanly uninstall applications
 cask "cleanmymac"
+
+# Screen recording utility
+cask "kap"
 
 # VPN client for secure internet access and private browsing
 cask "nordvpn"

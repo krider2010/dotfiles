@@ -1,0 +1,5 @@
+add_to_path_end() {
+  [ -d "$1" ] || return
+  remove_from_path "$1"
+  export PATH="$PATH:$1"
+}

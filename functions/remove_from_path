@@ -1,0 +1,8 @@
+remove_from_path() {
+  [ -d "$1" ] || return
+  PATHSUB=":$PATH:"
+  PATHSUB=${PATHSUB//:$1:/:}
+  PATHSUB=${PATHSUB#:}
+  PATHSUB=${PATHSUB%:}
+  export PATH="$PATHSUB"
+}
