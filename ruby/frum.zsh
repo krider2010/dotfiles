@@ -1,1 +1,1 @@
-quiet_which frum && eval "$(frum init)"
+command -v "frum" >/dev/null  && eval "$(frum init)"

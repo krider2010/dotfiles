@@ -1,11 +1,11 @@
-if quiet_which code
+if command -v "code" >/dev/null
 then
   export EDITOR="code"
   export GIT_EDITOR="$EDITOR -w"
-elif quiet_which vim
+elif command -v "vim" >/dev/null
 then
   export EDITOR="vim"
-elif quiet_which vi
+elif command -v "vi" >/dev/null
 then
   export EDITOR="vi"
 fi
