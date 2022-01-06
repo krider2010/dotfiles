@@ -261,6 +261,7 @@ mas "ToothFairy", id: 1191449274
 mas "Xcode", id: 497799835
 
 # Install manually...
-# Obsidian - https://obsidian.md/
 # Cron - https://cron.app/
 # ChronoSync - https://www.econtechnologies.com/chronosync/overview.html
+# Obsidian - https://obsidian.md/
+# Rocket - https://matthewpalmer.net/rocket/
