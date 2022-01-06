@@ -222,12 +222,16 @@ cask "aerial"
 # 2FA software (also used on iPhone)
 cask "authy"
 
+# How I run my life (alongside a calendar!)
+cask "todoist"
+
 # Communication and collaboration. And memes. And emoji!
 cask "slack"
 
 # Communication
 cask "signal"
 cask "whatsapp"
+cask "telegram"
 
 mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
@@ -238,7 +242,6 @@ mas "Dato", id: 1470584107
 mas "Fantastical", id: 975937182
 mas "Hue Menu Bar", id: 1500678169
 mas "iMazing HEIC Converter", id: 1292198261
-mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "Mactracker", id: 430255202
@@ -248,15 +251,11 @@ mas "Pages", id: 409201541
 mas "Petrify", id: 1451177988
 mas "Pixelmator Pro", id: 1289583905
 mas "RunCat", id: 1429033973
-mas "Save to Pocket", id: 1477385213
 mas "SmugMug", id: 1115348888
 mas "StopTheMadness", id: 1376402589
 mas "TextSniper", id: 1528890965
 mas "Times", id: 1048770312
-mas "Todoist", id: 585829637
 mas "ToothFairy", id: 1191449274
-mas "Tweetbot", id: 1384080005
-mas "Whalebird", id: 1378283354
 mas "Xcode", id: 497799835
 
 # Install manually...
