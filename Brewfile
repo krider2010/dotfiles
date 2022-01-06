@@ -240,6 +240,7 @@ mas "Cardhop", id: 1290358394
 mas "Cyberduck", id: 409222199
 mas "Dato", id: 1470584107
 mas "Fantastical", id: 975937182
+mas "GIF Brewery 3", id: 1081413713
 mas "Hue Menu Bar", id: 1500678169
 mas "iMazing HEIC Converter", id: 1292198261
 mas "Keynote", id: 409183694
@@ -251,6 +252,7 @@ mas "Pages", id: 409201541
 mas "Petrify", id: 1451177988
 mas "Pixelmator Pro", id: 1289583905
 mas "RunCat", id: 1429033973
+mas "Session", id: 1521432881
 mas "SmugMug", id: 1115348888
 mas "StopTheMadness", id: 1376402589
 mas "TextSniper", id: 1528890965
@@ -260,3 +262,5 @@ mas "Xcode", id: 497799835
 
 # Install manually...
 # Obsidian - https://obsidian.md/
+# Cron - https://cron.app/
+# ChronoSync - https://www.econtechnologies.com/chronosync/overview.html
