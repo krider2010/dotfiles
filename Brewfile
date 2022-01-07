@@ -97,6 +97,9 @@ brew "mysql-client"
 # Node version management
 brew "n"
 
+# Netlify
+brew "netlify-cli"
+
 # Terminal multiplexer
 brew "tmux"
 
