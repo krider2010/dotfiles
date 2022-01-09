@@ -66,9 +66,6 @@ brew "htop"
 # Command-line benchmarking tool
 brew "hyperfine"
 
-# High-performance regular expression matching library
-brew "hyperscan"
-
 # Making APIs simple from the command line
 brew "httpie"
 
@@ -80,9 +77,6 @@ brew "fx"
 
 # Mac App Store command-line interface
 brew "mas"
-
-# PlanetScale CLI
-brew "planetscale/tap/pscale"
 
 # AWS SAM CLI
 brew "aws-sam-cli"
@@ -157,9 +151,6 @@ cask "github"
 # Awesome terminal emulator
 cask "iterm2"
 
-# Development kit for the Java programming language - see http://whichjdk.com/
-cask "temurin"
-
 # HTTP client that helps testing and describing APIs
 cask "paw"
 
@@ -195,9 +186,6 @@ cask "font-hack-nerd-font"
 # Silence embarrassing notifications while screensharing
 cask "muzzle"
 
-# Collection of apps and services for photography, design, video, web, and UX
-cask "adobe-creative-cloud"
-
 # Music streaming service
 cask "spotify"
 
@@ -215,9 +203,6 @@ cask "visual-studio-code"
 
 # Video communication and virtual meeting platform
 cask "zoom"
-
-# AWS VPN
-cask "aws-vpn-client"
 
 # Aerial Screensaver (from Apple TV screensaver)
 cask "aerial"
@@ -253,7 +238,6 @@ mas "Monosnap", id: 540348655
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Petrify", id: 1451177988
-mas "Pixelmator Pro", id: 1289583905
 mas "RunCat", id: 1429033973
 mas "Session", id: 1521432881
 mas "SmugMug", id: 1115348888
