@@ -12,6 +12,7 @@ tap "homebrew/command-not-found"
 tap "homebrew/core"
 tap "homebrew/formula-analytics"
 tap "homebrew/services"
+tap "planetscape/tap"
 
 # Search tool like grep, but optimized for programmers
 brew "ack"
@@ -251,4 +252,3 @@ mas "Xcode", id: 497799835
 # Cron - https://cron.app/
 # ChronoSync - https://www.econtechnologies.com/chronosync/overview.html
 # Obsidian - https://obsidian.md/
-# Rocket - https://matthewpalmer.net/rocket/
