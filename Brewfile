@@ -178,9 +178,6 @@ cask "nordvpn"
 cask "google-chrome"
 cask "firefox"
 
-# Open-source software for live streaming and screen recording
-cask "obs"
-
 # Nerd fonts with glyphs (in addition to Powerline)
 cask "font-hack-nerd-font"
 
