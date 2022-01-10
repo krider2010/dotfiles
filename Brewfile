@@ -131,6 +131,9 @@ brew "thefuck"
 # Community driven man pages
 brew "tldr"
 
+# MySQL UI
+casK "sequel-pro"
+
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 
