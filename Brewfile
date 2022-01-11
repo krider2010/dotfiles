@@ -249,6 +249,7 @@ mas "ToothFairy", id: 1191449274
 mas "Xcode", id: 497799835
 
 # Install manually...
-# Cron - https://cron.app/
+# Cron - https://cron.com/download
 # ChronoSync - https://www.econtechnologies.com/chronosync/overview.html
+# Elgato Apps (e.g. StreamDeck) - https://www.elgato.com/en/downloads
 # Obsidian - https://obsidian.md/
