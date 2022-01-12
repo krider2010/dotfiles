@@ -219,7 +219,7 @@ cask "slack"
 
 # Communication
 cask "signal"
-cask "whatsapp"
+# cask "whatsapp" - Not yet M1 binary
 cask "telegram"
 
 mas "Amphetamine", id: 937984704
