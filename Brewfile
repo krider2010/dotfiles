@@ -131,6 +131,9 @@ brew "thefuck"
 # Community driven man pages
 brew "tldr"
 
+# MySQL UI
+casK "sequel-pro"
+
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 
@@ -178,9 +181,6 @@ cask "nordvpn"
 cask "google-chrome"
 cask "firefox"
 
-# Open-source software for live streaming and screen recording
-cask "obs"
-
 # Nerd fonts with glyphs (in addition to Powerline)
 cask "font-hack-nerd-font"
 
@@ -219,7 +219,7 @@ cask "slack"
 
 # Communication
 cask "signal"
-cask "whatsapp"
+# cask "whatsapp" - Not yet M1 binary
 cask "telegram"
 
 mas "Amphetamine", id: 937984704
@@ -249,6 +249,7 @@ mas "ToothFairy", id: 1191449274
 mas "Xcode", id: 497799835
 
 # Install manually...
-# Cron - https://cron.app/
+# Cron - https://cron.com/download
 # ChronoSync - https://www.econtechnologies.com/chronosync/overview.html
+# Elgato Apps (e.g. StreamDeck) - https://www.elgato.com/en/downloads
 # Obsidian - https://obsidian.md/
