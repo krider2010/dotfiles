@@ -48,3 +48,8 @@ zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
+
+# Dealing with lack of Chromium ARM64 builds
+# Details/credit at https://rickynguyen.medium.com/puppeteer-for-apple-m1-43a5c31e4f9d
+export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+export PUPPETEER_EXECUTABLE_PATH=`which chromium`
