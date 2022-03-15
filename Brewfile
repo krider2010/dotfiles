@@ -47,6 +47,12 @@ brew "fork-cleaner"
 # GitHub command-line tool
 brew "gh"
 
+# Emoji for git commits; gitmoji -i or gitmoji -c
+brew "gitmoji"
+
+# Because rainbows! For a rainbow cookie try fortune | lolcat
+brew "lolcat"
+
 # GNU Pretty Good Privacy (PGP)
 brew 'gpg2'
 brew 'gnupg'
