@@ -1,0 +1,5 @@
+clean_branches() {
+  echo "=== Deleting all merged branches ==="
+  git checkout main && git branch --merged | egrep -v "(^\*|main)" | xargs git branch -d
+  echo "✅ Done!"
+}
