@@ -211,6 +211,9 @@ cask "steam"
 # Open-source code editor
 cask "visual-studio-code"
 
+# Fast and extensible launcher
+cask "raycast"
+
 # Video communication and virtual meeting platform
 cask "zoom"
 
@@ -261,4 +264,5 @@ mas "Xcode", id: 497799835
 # Cron - https://cron.com/download
 # ChronoSync - https://www.econtechnologies.com/chronosync/overview.html
 # Elgato Apps (e.g. StreamDeck) - https://www.elgato.com/en/downloads
+# Fig - https://fig.io/
 # Obsidian - https://obsidian.md/
