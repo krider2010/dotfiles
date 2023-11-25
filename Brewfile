@@ -12,7 +12,6 @@ tap "homebrew/command-not-found"
 tap "homebrew/core"
 tap "homebrew/formula-analytics"
 tap "homebrew/services"
-tap "planetscape/tap"
 
 # Search tool like grep, but optimized for programmers
 brew "ack"
@@ -128,9 +127,6 @@ brew "defaultbrowser"
 # Internet file retriever
 brew "wget"
 
-# Download YouTube videos from the command-line
-brew "youtube-dlc"
-
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
 
@@ -141,7 +137,7 @@ brew "thefuck"
 brew "tldr"
 
 # MySQL UI
-casK "sequel-pro"
+cask "sequel-pro"
 
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
@@ -231,7 +227,7 @@ cask "slack"
 
 # Communication
 cask "signal"
-# cask "whatsapp" - Not yet M1 binary
+cask "chatmate-for-whatsapp"
 cask "telegram"
 
 mas "Amphetamine", id: 937984704
@@ -241,7 +237,6 @@ mas "Cardhop", id: 1290358394
 mas "Cyberduck", id: 409222199
 mas "Dato", id: 1470584107
 mas "Fantastical", id: 975937182
-mas "GIF Brewery 3", id: 1081413713
 mas "Hue Menu Bar", id: 1500678169
 mas "iMazing HEIC Converter", id: 1292198261
 mas "Keynote", id: 409183694

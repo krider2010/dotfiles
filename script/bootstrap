@@ -38,19 +38,19 @@ setup_gitconfig () {
       git_credential='osxkeychain'
     fi
 
-    if [ -z "$STRAP_GIT_NAME"]
+    if [ -z "$STRAP_GIT_NAME" ]
     then
       user ' - What is your GitHub author name?'
       read -e STRAP_GIT_NAME
     fi
 
-    if [ -z "$STRAP_GIT_EMAIL"]
+    if [ -z "$STRAP_GIT_EMAIL" ]
     then
       user ' - What is your GitHub author email?'
       read -e STRAP_GIT_EMAIL
     fi
 
-    if [ -z "$STRAP_GITHUB_USER"]
+    if [ -z "$STRAP_GITHUB_USER" ]
     then
       user ' - What is your GitHub user?'
       read -e STRAP_GITHUB_USER
