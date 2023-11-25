@@ -176,9 +176,6 @@ cask "little-snitch"
 # Tool to remove unnecessary files and folders, and cleanly uninstall applications
 cask "cleanmymac"
 
-# Screen recording utility
-cask "kap"
-
 # VPN client for secure internet access and private browsing
 cask "nordvpn"
 
@@ -247,7 +244,6 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Petrify", id: 1451177988
 mas "RunCat", id: 1429033973
-mas "Session", id: 1521432881
 mas "SmugMug", id: 1115348888
 mas "StopTheMadness", id: 1376402589
 mas "TextSniper", id: 1528890965
