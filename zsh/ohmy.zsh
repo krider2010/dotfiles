@@ -111,16 +111,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-if [ -x "$(command -v exa)" ]; then
-    alias ls="exa"
-    alias la="exa --long --all --group"
-    alias ll='exa -lb --classify --git'  # list, size, type, git
-    alias llm='exa -lbGd --git --sort=modified'  # long list, modified date sort
-    alias ld='exa -lbhHigUmuSa --time-style=long-iso --git --color-scale'  # Detailed table
-    alias lx='exa -lbhHigUmuSa@ --time-style=long-iso --git --color-scale'  # Detailed table + extended list
-    alias l1='exa --oneline'  # one column of names
-    alias lt='exa --tree --level=3'  # tree
-fi
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

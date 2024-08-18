@@ -34,9 +34,6 @@ brew "diffoscope"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 
-# Modern replacement for 'ls' (colours etc!)
-brew "exa"
-
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 
@@ -114,6 +111,9 @@ brew "pidof"
 
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
+
+# Fast package manager
+brew "pnpm"
 
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
@@ -255,5 +255,4 @@ mas "Xcode", id: 497799835
 # Cron - https://cron.com/download
 # ChronoSync - https://www.econtechnologies.com/chronosync/overview.html
 # Elgato Apps (e.g. StreamDeck) - https://www.elgato.com/en/downloads
-# Fig - https://fig.io/
 # Obsidian - https://obsidian.md/
