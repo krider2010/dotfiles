@@ -60,9 +60,6 @@ brew 'pinentry-mac'
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 
-# Safe, concurrent, practical language (run this command afterwards to configure the things)
-brew "rustup-init"
-
 # Colorize logfiles and command output
 brew "grc"
 
@@ -127,9 +124,6 @@ brew "defaultbrowser"
 # Internet file retriever
 brew "wget"
 
-# Everything you need to get started with Heroku
-brew "heroku/brew/heroku"
-
 # Fixing command line typos!
 brew "thefuck"
 
@@ -145,14 +139,8 @@ cask "1password"
 # Command-line helper for the 1Password password manager
 cask "1password-cli"
 
-# Voice and text chat software
-cask "discord"
-
 # App to build and share containerized applications and microservices
 cask "docker"
-
-# git client
-cask "tower"
 
 # git client (GitHub Desktop)
 cask "github"
@@ -189,17 +177,11 @@ cask "font-hack-nerd-font"
 # Silence embarrassing notifications while screensharing
 cask "muzzle"
 
-# Music streaming service
-cask "spotify"
-
 # Menu bar organiser
 cask "bartender"
 
 # Emoji picker
 cask "rocket"
-
-# Video game digital distribution service
-cask "steam"
 
 # Open-source code editor
 cask "visual-studio-code"
@@ -210,14 +192,9 @@ cask "raycast"
 # Video communication and virtual meeting platform
 cask "zoom"
 
-# Aerial Screensaver (from Apple TV screensaver)
-cask "aerial"
-
-# 2FA software (also used on iPhone)
-cask "authy"
-
-# How I run my life (alongside a calendar!)
+# How I run my life
 cask "todoist"
+cask "notion-calendar"
 
 # Communication and collaboration. And memes. And emoji!
 cask "slack"
@@ -226,7 +203,23 @@ cask "slack"
 cask "signal"
 cask "chatmate-for-whatsapp"
 cask "telegram"
+cask "whatsapp"
+cask "discord"
 
+# Utilities
+cask "elgato-stream-deck"
+
+# Brain
+cask "obsidian"
+
+# Screenshots
+cask "cleanshot"
+
+# Backups
+cask "chronosync"
+cask "idrive"
+
+mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
 mas "Buffer", id: 1474298973
@@ -234,25 +227,23 @@ mas "Cardhop", id: 1290358394
 mas "Cyberduck", id: 409222199
 mas "Dato", id: 1470584107
 mas "Fantastical", id: 975937182
+mas "Foodnoms", id: 1479461686
 mas "Hue Menu Bar", id: 1500678169
-mas "iMazing HEIC Converter", id: 1292198261
-mas "Keynote", id: 409183694
-mas "Kindle", id: 405399194
-mas "Mactracker", id: 430255202
-mas "Monosnap", id: 540348655
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
+mas "iMazing Converter", id: 1292198261
+# mas "Keynote", id: 409183694
+mas "Kindle Classic", id: 405399194
+# mas "Mactracker", id: 430255202
+# mas "Numbers", id: 409203825
+# mas "Pages", id: 409201541
 mas "Petrify", id: 1451177988
+mas "Pixelmator Pro", id: 1289583905
 mas "RunCat", id: 1429033973
-mas "SmugMug", id: 1115348888
-mas "StopTheMadness", id: 1376402589
+# mas "SmugMug", id: 1115348888
+mas "StopTheMadness Pro", id: 6471380298
 mas "TextSniper", id: 1528890965
 mas "Times", id: 1048770312
 mas "ToothFairy", id: 1191449274
 mas "Xcode", id: 497799835
 
 # Install manually...
-# Cron - https://cron.com/download
-# ChronoSync - https://www.econtechnologies.com/chronosync/overview.html
 # Elgato Apps (e.g. StreamDeck) - https://www.elgato.com/en/downloads
-# Obsidian - https://obsidian.md/
