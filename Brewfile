@@ -88,8 +88,7 @@ brew "aws-sam-cli"
 brew "mkcert"
 
 # Open source relational database management system
-brew "mysql@5.7", restart_service: true
-brew "mysql-client"
+# TODO - update mysql
 
 # Node version management
 brew "n"
@@ -118,8 +117,9 @@ brew "ripgrep"
 # Ruby version manager written in rust that is fast and handles installing ruby itself
 brew "frum"
 
-# Easy configuration of the system wide default browser (CLI)
+# Easy configuration of the browsers to use
 brew "defaultbrowser"
+brew "choosy"
 
 # Internet file retriever
 brew "wget"
