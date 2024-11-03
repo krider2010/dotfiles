@@ -332,15 +332,6 @@ logn "Updating Homebrew:"
 brew update --quiet
 logk
 
-# Install Homebrew Bundle, Cask and Services tap.
-log "Installing Homebrew taps and extensions:"
-brew bundle --quiet --file=- <<RUBY
-tap "homebrew/cask"
-tap "homebrew/core"
-tap "homebrew/services"
-RUBY
-logk
-
 # Check and install any remaining software updates.
 logn "Checking for software updates:"
 if softwareupdate -l 2>&1 | grep $Q "No new software available."; then
@@ -387,22 +378,6 @@ fi
 if [ -f "$HOME/.Brewfile" ]; then
   log "Installing from user Brewfile on GitHub:"
   brew bundle check --global || brew bundle --global
-  logk
-fi
-
-# Tap a custom Homebrew tap
-if [ -n "$CUSTOM_HOMEBREW_TAP" ]; then
-  read -ra CUSTOM_HOMEBREW_TAP <<< "$CUSTOM_HOMEBREW_TAP"
-  log "Running 'brew tap ${CUSTOM_HOMEBREW_TAP[*]}':"
-  brew tap "${CUSTOM_HOMEBREW_TAP[@]}"
-  logk
-fi
-
-# Run a custom `brew` command
-if [ -n "$CUSTOM_BREW_COMMAND" ]; then
-  log "Executing 'brew $CUSTOM_BREW_COMMAND':"
-  # shellcheck disable=SC2086
-  brew $CUSTOM_BREW_COMMAND
   logk
 fi
 
