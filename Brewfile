@@ -5,11 +5,7 @@ tap "heroku/brew"
 tap "homebrew/aliases"
 tap "homebrew/autoupdate"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
 tap "homebrew/command-not-found"
-tap "homebrew/core"
 tap "homebrew/formula-analytics"
 tap "homebrew/services"
 
@@ -88,8 +84,7 @@ brew "aws-sam-cli"
 brew "mkcert"
 
 # Open source relational database management system
-brew "mysql@5.7", restart_service: true
-brew "mysql-client"
+# TODO - update mysql
 
 # Node version management
 brew "n"
@@ -118,8 +113,9 @@ brew "ripgrep"
 # Ruby version manager written in rust that is fast and handles installing ruby itself
 brew "frum"
 
-# Easy configuration of the system wide default browser (CLI)
+# Easy configuration of the browsers to use
 brew "defaultbrowser"
+brew "choosy"
 
 # Internet file retriever
 brew "wget"
@@ -133,7 +129,7 @@ brew "tldr"
 # MySQL UI
 cask "sequel-pro"
 
-# Password manager that keeps all passwords secure behind one password
+# Password manager that keeps all passwords secure behind one password - might fail if already installed directly
 cask "1password"
 
 # Command-line helper for the 1Password password manager
