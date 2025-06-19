@@ -5,11 +5,7 @@ tap "heroku/brew"
 tap "homebrew/aliases"
 tap "homebrew/autoupdate"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
 tap "homebrew/command-not-found"
-tap "homebrew/core"
 tap "homebrew/formula-analytics"
 tap "homebrew/services"
 
@@ -133,7 +129,7 @@ brew "tldr"
 # MySQL UI
 cask "sequel-pro"
 
-# Password manager that keeps all passwords secure behind one password
+# Password manager that keeps all passwords secure behind one password - might fail if already installed directly
 cask "1password"
 
 # Command-line helper for the 1Password password manager
